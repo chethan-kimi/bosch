@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/your-username/LoginPage.git', credentialsId: 'github-credentials-id'
+                git url: 'https://github.com/chethan-kimi/bosch.git'
             }
         }
         stage('Build Application') {
